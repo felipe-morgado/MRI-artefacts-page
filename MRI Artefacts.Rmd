@@ -1,5 +1,5 @@
 ---
-title: "MRI Artefact Quiz"
+title: "MRI Artefacts"
 author: "Felipe Morgado"
 date: "February 4, 2019"
 output: html_document
@@ -8,16 +8,23 @@ output: html_document
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
-*Images provided by Jacob Ellegood and were previously presented at the MICe Summer School.*
+*Images provided by Jacob Ellegood.*
 
-The quality of MRI images are dependant on many factors spread across several domains. Hardware limitations, off-resonant effects, parameter choice, and even the specimen itself can induce distortions in your image. Sometimes the distortion is apparent and the image is clearly of poor quality. Sometimes the distortion is subtle and can be mistaken for a normal variation of the imaged anatomy. Given that we want to use our images to perform regional analyses at high resolutions, we need to know how to identify artefacts and their various causes. So without further ado, test your knowledge on the MICe artefact quiz!
+The quality of MRI images are dependant on many factors spread across several domains. Hardware limitations, off-resonant effects, parameter choice, and even the specimen itself can induce distortions in your image. Sometimes the distortion is apparent and the image is clearly degraded. Sometimes the distortion is subtle and can be mistaken for a normal variation of the imaged anatomy. Given that we want to use our images to perform regional analyses at high resolutions, we need to know how to identify artefacts and their various causes.
+
+
+If you think you know your way around a mouse MRI scan, test yourself on our quiz below!
 
 **Educational Resources**
 
-*Novice*:
 * Principles of Magnetic Resonance Imaging (Dwight G. Nishimura) - This brief handbook is a great primer to learn about basic MRI concepts and how parameter choice can cause artefacts. Highly recommend to those who are brand new to MRI.
-* [link](www.mri-q.com/hellipmr-artifacts.html) dedicates sections to tissue-related, motion-related, and technique-related artefacts.
-* 
+* [MRI-Q.com](www.mri-q.com/hellipmr-artifacts.html) dedicates sections to tissue-related, motion-related, and technique-related artefacts. Great resource for beginners and those who need refreshers.
+* [An Image-based Approach to Understanding the Physics of MR Artifacts](https://pubs.rsna.org/doi/pdf/10.1148/rg.313105115) (Morelli et al. *RadioGraphics*. 2011:31(3);849-866). Artefacts are nicely presented as highlighted "Teaching Points".
+* [A Short Overview of MRI artefacts](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.838.7344&rep=rep1&type=pdf) (Erasmus et al. *SA Journal of Radiology*. 2004:13-17)/ Very brief descriptions of a broad array of artefacts.
+* [Multiple-mouse MRI](https://onlinelibrary.wiley.com/doi/epdf/10.1002/mrm.10326) (Bock et al. *MRM*. 2003:49;158-167). How we image mice at MICe.
+* [MRI-Q.com/susceptibility-artifact.html](http://mriquestions.com/susceptibility-artifact.html). Our mice are imaged in a high B~0 field and when B~0 is high, certain artefacts becomes more pronounced. Susceptibiltiy artefacts are caused by differences in magnetic susceptibilities of tissues and materials, and can lead to very bright or very dark spots.
+* [The SENSE Ghost: Field-of-View Restrictions for SENSE Imaging](http://mri-q.com/uploads/3/4/5/7/34572113/20204_ftp.pdf) (Goldfard. *J MRI*. 2004. 20:1046-1051). The multi-coil set-up in our scanners relies on sensitivity-encoding (SENSE) theory to decouple images. Ghosting artefacts due to coupling can occur when RF coil shielding is incomplete.
+
 
 
 
