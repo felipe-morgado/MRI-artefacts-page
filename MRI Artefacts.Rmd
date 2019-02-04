@@ -1,0 +1,36 @@
+---
+title: "MRI Artefact Quiz"
+author: "Felipe Morgado"
+date: "February 4, 2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+*Images provided by Jacob Ellegood and were previously presented at the MICe Summer School.*
+
+The quality of MRI images are dependant on many factors spread across several domains. Hardware limitations, off-resonant effects, parameter choice, and even the specimen itself can induce distortions in your image. Sometimes the distortion is apparent and the image is clearly of poor quality. Sometimes the distortion is subtle and can be mistaken for a normal variation of the imaged anatomy. Given that we want to use our images to perform regional analyses at high resolutions, we need to know how to identify artefacts and their various causes. So without further ado, test your knowledge on the MICe artefact quiz!
+
+**Educational Resources**
+
+*Novice*:
+* Principles of Magnetic Resonance Imaging (Dwight G. Nishimura) - This brief handbook is a great primer to learn about basic MRI concepts and how parameter choice can cause artefacts. Highly recommend to those who are brand new to MRI.
+* [link](www.mri-q.com/hellipmr-artifacts.html) dedicates sections to tissue-related, motion-related, and technique-related artefacts.
+* 
+
+
+
+```{r cars}
+summary(cars)
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
